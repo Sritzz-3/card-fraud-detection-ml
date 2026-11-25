@@ -1,0 +1,13 @@
+model,strategy,validation_pr_auc
+Logistic Regression,class_weight,0.34816868985969907
+Logistic Regression,undersampling,0.3477463843305926
+Logistic Regression,none,0.34816868985969907
+Random Forest,class_weight,0.39679522169349607
+Random Forest,undersampling,0.4158550174741283
+Random Forest,none,0.49994142563746213
+Neural Network,class_weight,0.48925875706975497
+Neural Network,undersampling,0.35828711807400637
+Neural Network,none,0.48925875706975497
+XGBoost,class_weight,0.47182251176851886
+XGBoost,undersampling,0.46674717935731586
+XGBoost,none,0.47182251176851886
