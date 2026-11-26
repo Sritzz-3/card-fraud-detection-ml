@@ -4,5 +4,15 @@ n_cardholders: 1500
 fraud_rate: 0.005
 review_cost: 15.0
 precision_target: 0.90
-bootstrap_resamples: 200
 sample_rows: 5000
+validation_fraction: 0.20
+minimum_validation_true_positives: 30
+review_capacity_rates: [0.0025, 0.005, 0.01]
+default_review_capacity: 0.005
+search_train_rows: 100000
+fit_train_rows: 300000
+smote_train_rows: 150000
+undersample_max_ratio: 5
+search_candidates: 2
+permutation_rows: 5000
+bootstrap_resamples: 200
