@@ -17,3 +17,10 @@ def test_prior_rolling_count_and_causality():
     changed.loc[2,'category']='future_category'; changed.loc[2,'job']='future_job'
     X3,_,_=engineer_features(changed)
     assert X.iloc[:2].equals(X3.iloc[:2])
+
+def test_removing_later_rows_does_not_change_earlier_features():
+    full=fixture(); full['trans_date_trans_time']=pd.to_datetime(['2024-01-01 00:00','2024-01-01 00:30','2024-01-01 02:00'])
+    Xfull,_,_=engineer_features(full)
+    prefix=full.iloc[:2].copy(); Xprefix,_,_=engineer_features(prefix)
+    cols=Xprefix.columns
+    assert Xfull.iloc[:2][cols].reset_index(drop=True).equals(Xprefix.reset_index(drop=True))
