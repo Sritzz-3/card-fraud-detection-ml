@@ -1,0 +1,2 @@
+final_threshold,alert_count,missed_fraud_amount,false_alarm_review_cost,total_cost,all_missed_cost,review_every_transaction_cost
+0.6363636363636365,1895,124642.03,2070.0,126712.03,1133324.6800000002,8303610.0

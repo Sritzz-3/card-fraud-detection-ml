@@ -1,0 +1,9 @@
+model,parameters,validation_pr_auc
+Logistic Regression,{'C': 0.1},0.4485819479060732
+Logistic Regression,{'C': 1.0},0.4482135855494735
+Random Forest,"{'max_depth': 8, 'min_samples_leaf': 3}",0.809093148195228
+Random Forest,"{'max_depth': 14, 'min_samples_leaf': 2}",0.839162895987045
+Neural Network,"{'hidden_layer_sizes': (32, 16), 'alpha': 0.001}",0.8338799961667944
+Neural Network,"{'hidden_layer_sizes': (64, 32), 'alpha': 0.01}",0.8406269967960222
+XGBoost,"{'max_depth': 4, 'learning_rate': 0.08}",0.9322874677224442
+XGBoost,"{'max_depth': 6, 'learning_rate': 0.05}",0.9245776354513862

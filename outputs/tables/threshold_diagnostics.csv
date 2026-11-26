@@ -1,0 +1,201 @@
+model,scores,policy,threshold,validation_positives,validation_flagged,test_positives,test_flagged,quantile,score_quantile
+Logistic Regression,uncalibrated,f1_max,0.1793893686044286,949.0,1292.0,1184.0,1918.0,,
+Logistic Regression,uncalibrated,precision_constrained,0.742319089972233,564.0,637.0,690.0,859.0,,
+Logistic Regression,uncalibrated,review_capacity_0.0025,0.7910565688405513,530.0,599.0,647.0,804.0,,
+Logistic Regression,uncalibrated,review_capacity_0.005,0.21045473353559843,909.0,1199.0,1144.0,1772.0,,
+Logistic Regression,uncalibrated,review_capacity_0.01,0.04929600356077264,1133.0,2560.0,1509.0,4295.0,,
+Logistic Regression,uncalibrated,validation_class_0_q0.1,,,,,,0.1,2.2672372415997718e-05
+Logistic Regression,uncalibrated,validation_class_0_q0.25,,,,,,0.25,7.77285484277374e-05
+Logistic Regression,uncalibrated,validation_class_0_q0.5,,,,,,0.5,0.00031759232647062034
+Logistic Regression,uncalibrated,validation_class_0_q0.75,,,,,,0.75,0.0013115892831050695
+Logistic Regression,uncalibrated,validation_class_0_q0.9,,,,,,0.9,0.005569723385219309
+Logistic Regression,uncalibrated,validation_class_1_q0.1,,,,,,0.1,0.00538969020868423
+Logistic Regression,uncalibrated,validation_class_1_q0.25,,,,,,0.25,0.04335925046407251
+Logistic Regression,uncalibrated,validation_class_1_q0.5,,,,,,0.5,0.37533878457232805
+Logistic Regression,uncalibrated,validation_class_1_q0.75,,,,,,0.75,0.9371110034226351
+Logistic Regression,uncalibrated,validation_class_1_q0.9,,,,,,0.9,0.9979702706616299
+Logistic Regression,uncalibrated,test_class_0_q0.1,,,,,,0.1,1.6370434193230067e-05
+Logistic Regression,uncalibrated,test_class_0_q0.25,,,,,,0.25,5.814188853192391e-05
+Logistic Regression,uncalibrated,test_class_0_q0.5,,,,,,0.5,0.0002528677790334451
+Logistic Regression,uncalibrated,test_class_0_q0.75,,,,,,0.75,0.0010788781018690905
+Logistic Regression,uncalibrated,test_class_0_q0.9,,,,,,0.9,0.004590698169598895
+Logistic Regression,uncalibrated,test_class_1_q0.1,,,,,,0.1,0.0028238895144812527
+Logistic Regression,uncalibrated,test_class_1_q0.25,,,,,,0.25,0.03212672345683954
+Logistic Regression,uncalibrated,test_class_1_q0.5,,,,,,0.5,0.2830835301714336
+Logistic Regression,uncalibrated,test_class_1_q0.75,,,,,,0.75,0.8890811382028204
+Logistic Regression,uncalibrated,test_class_1_q0.9,,,,,,0.9,0.9961189705466229
+Logistic Regression,calibrated,f1_max,0.42424242424242425,946.0,1282.0,1181.0,1900.0,,
+Logistic Regression,calibrated,precision_constrained,0.84,524.0,592.0,644.0,799.0,,
+Logistic Regression,calibrated,review_capacity_0.0025,0.8217978287706251,530.0,599.0,647.0,804.0,,
+Logistic Regression,calibrated,review_capacity_0.005,0.42424242424242425,946.0,1282.0,1181.0,1900.0,,
+Logistic Regression,calibrated,review_capacity_0.01,0.07352941176470588,1152.0,2792.0,1535.0,4740.0,,
+Logistic Regression,calibrated,validation_class_0_q0.1,,,,,,0.1,0.0
+Logistic Regression,calibrated,validation_class_0_q0.25,,,,,,0.25,0.000253350561171493
+Logistic Regression,calibrated,validation_class_0_q0.5,,,,,,0.5,0.000253350561171493
+Logistic Regression,calibrated,validation_class_0_q0.75,,,,,,0.75,0.0015707671957671957
+Logistic Regression,calibrated,validation_class_0_q0.9,,,,,,0.9,0.0034537343502662253
+Logistic Regression,calibrated,validation_class_1_q0.1,,,,,,0.1,0.0034537343502662253
+Logistic Regression,calibrated,validation_class_1_q0.25,,,,,,0.25,0.04814814814814815
+Logistic Regression,calibrated,validation_class_1_q0.5,,,,,,0.5,0.6911764705882353
+Logistic Regression,calibrated,validation_class_1_q0.75,,,,,,0.75,0.9064039408866995
+Logistic Regression,calibrated,validation_class_1_q0.9,,,,,,0.9,0.9064039408866995
+Logistic Regression,calibrated,test_class_0_q0.1,,,,,,0.1,0.0
+Logistic Regression,calibrated,test_class_0_q0.25,,,,,,0.25,0.0
+Logistic Regression,calibrated,test_class_0_q0.5,,,,,,0.5,0.000253350561171493
+Logistic Regression,calibrated,test_class_0_q0.75,,,,,,0.75,0.0015707671957671957
+Logistic Regression,calibrated,test_class_0_q0.9,,,,,,0.9,0.002967359050445104
+Logistic Regression,calibrated,test_class_1_q0.1,,,,,,0.1,0.0015707671957671957
+Logistic Regression,calibrated,test_class_1_q0.25,,,,,,0.25,0.042483660130718956
+Logistic Regression,calibrated,test_class_1_q0.5,,,,,,0.5,0.44680851063829785
+Logistic Regression,calibrated,test_class_1_q0.75,,,,,,0.75,0.88
+Logistic Regression,calibrated,test_class_1_q0.9,,,,,,0.9,0.9064039408866995
+Random Forest,uncalibrated,f1_max,0.2718898149436359,1364.0,1528.0,1805.0,2109.0,,
+Random Forest,uncalibrated,precision_constrained,0.2718898149436359,1364.0,1528.0,1805.0,2109.0,,
+Random Forest,uncalibrated,review_capacity_0.0025,0.8733874042670432,599.0,599.0,790.0,791.0,,
+Random Forest,uncalibrated,review_capacity_0.005,0.47916749689796717,1162.0,1200.0,1550.0,1613.0,,
+Random Forest,uncalibrated,review_capacity_0.01,0.07188878013246908,1456.0,2452.0,1964.0,4257.0,,
+Random Forest,uncalibrated,validation_class_0_q0.1,,,,,,0.1,3.846724059601921e-05
+Random Forest,uncalibrated,validation_class_0_q0.25,,,,,,0.25,5.5151557871999756e-05
+Random Forest,uncalibrated,validation_class_0_q0.5,,,,,,0.5,0.00012003963192486945
+Random Forest,uncalibrated,validation_class_0_q0.75,,,,,,0.75,0.0004135776954323048
+Random Forest,uncalibrated,validation_class_0_q0.9,,,,,,0.9,0.0014156233787191112
+Random Forest,uncalibrated,validation_class_1_q0.1,,,,,,0.1,0.2398779364536169
+Random Forest,uncalibrated,validation_class_1_q0.25,,,,,,0.25,0.488573196401915
+Random Forest,uncalibrated,validation_class_1_q0.5,,,,,,0.5,0.8011836558273072
+Random Forest,uncalibrated,validation_class_1_q0.75,,,,,,0.75,0.9431481481481481
+Random Forest,uncalibrated,validation_class_1_q0.9,,,,,,0.9,0.9888087056128293
+Random Forest,uncalibrated,test_class_0_q0.1,,,,,,0.1,3.9236710929493235e-05
+Random Forest,uncalibrated,test_class_0_q0.25,,,,,,0.25,5.58851551534314e-05
+Random Forest,uncalibrated,test_class_0_q0.5,,,,,,0.5,0.0001207203256991477
+Random Forest,uncalibrated,test_class_0_q0.75,,,,,,0.75,0.0004442922786845029
+Random Forest,uncalibrated,test_class_0_q0.9,,,,,,0.9,0.0014772131273764583
+Random Forest,uncalibrated,test_class_1_q0.1,,,,,,0.1,0.11191043825124948
+Random Forest,uncalibrated,test_class_1_q0.25,,,,,,0.25,0.4257433730673507
+Random Forest,uncalibrated,test_class_1_q0.5,,,,,,0.5,0.7805555555555556
+Random Forest,uncalibrated,test_class_1_q0.75,,,,,,0.75,0.9413098464317977
+Random Forest,uncalibrated,test_class_1_q0.9,,,,,,0.9,0.9866666666666666
+Random Forest,calibrated,f1_max,0.4594594594594595,1357.0,1496.0,1793.0,2055.0,,
+Random Forest,calibrated,precision_constrained,0.4594594594594595,1357.0,1496.0,1793.0,2055.0,,
+Random Forest,calibrated,review_capacity_0.0025,1.0,774.0,775.0,1017.0,1018.0,,
+Random Forest,calibrated,review_capacity_0.005,0.6923076923076923,1200.0,1248.0,1599.0,1682.0,,
+Random Forest,calibrated,review_capacity_0.01,0.031914893617021274,1461.0,2593.0,1974.0,4536.0,,
+Random Forest,calibrated,validation_class_0_q0.1,,,,,,0.1,0.0
+Random Forest,calibrated,validation_class_0_q0.25,,,,,,0.25,0.0
+Random Forest,calibrated,validation_class_0_q0.5,,,,,,0.5,0.0
+Random Forest,calibrated,validation_class_0_q0.75,,,,,,0.75,0.0001344411282299481
+Random Forest,calibrated,validation_class_0_q0.9,,,,,,0.9,0.0004193751310547285
+Random Forest,calibrated,validation_class_1_q0.1,,,,,,0.1,0.22666666666666666
+Random Forest,calibrated,validation_class_1_q0.25,,,,,,0.25,0.6923076923076923
+Random Forest,calibrated,validation_class_1_q0.5,,,,,,0.5,1.0
+Random Forest,calibrated,validation_class_1_q0.75,,,,,,0.75,1.0
+Random Forest,calibrated,validation_class_1_q0.9,,,,,,0.9,1.0
+Random Forest,calibrated,test_class_0_q0.1,,,,,,0.1,0.0
+Random Forest,calibrated,test_class_0_q0.25,,,,,,0.25,0.0
+Random Forest,calibrated,test_class_0_q0.5,,,,,,0.5,0.0
+Random Forest,calibrated,test_class_0_q0.75,,,,,,0.75,0.0001344411282299481
+Random Forest,calibrated,test_class_0_q0.9,,,,,,0.9,0.0004193751310547285
+Random Forest,calibrated,test_class_1_q0.1,,,,,,0.1,0.05172413793103448
+Random Forest,calibrated,test_class_1_q0.25,,,,,,0.25,0.6904761904761905
+Random Forest,calibrated,test_class_1_q0.5,,,,,,0.5,0.9819819819819819
+Random Forest,calibrated,test_class_1_q0.75,,,,,,0.75,1.0
+Random Forest,calibrated,test_class_1_q0.9,,,,,,0.9,1.0
+Neural Network,uncalibrated,f1_max,0.40550747376120383,1331.0,1480.0,1776.0,2126.0,,
+Neural Network,uncalibrated,precision_constrained,0.40550747376120383,1331.0,1480.0,1776.0,2126.0,,
+Neural Network,uncalibrated,review_capacity_0.0025,0.9968020430006814,603.0,605.0,795.0,799.0,,
+Neural Network,uncalibrated,review_capacity_0.005,0.8074772604128633,1167.0,1197.0,1553.0,1630.0,,
+Neural Network,uncalibrated,review_capacity_0.01,0.04930586643695419,1455.0,2533.0,1977.0,4209.0,,
+Neural Network,uncalibrated,validation_class_0_q0.1,,,,,,0.1,3.5170780177654434e-08
+Neural Network,uncalibrated,validation_class_0_q0.25,,,,,,0.25,7.058886741983563e-07
+Neural Network,uncalibrated,validation_class_0_q0.5,,,,,,0.5,9.279073925849482e-06
+Neural Network,uncalibrated,validation_class_0_q0.75,,,,,,0.75,7.95546134539551e-05
+Neural Network,uncalibrated,validation_class_0_q0.9,,,,,,0.9,0.00048583219033223387
+Neural Network,uncalibrated,validation_class_1_q0.1,,,,,,0.1,0.2045615525348141
+Neural Network,uncalibrated,validation_class_1_q0.25,,,,,,0.25,0.8237154725605245
+Neural Network,uncalibrated,validation_class_1_q0.5,,,,,,0.5,0.9898260733268148
+Neural Network,uncalibrated,validation_class_1_q0.75,,,,,,0.75,0.9996852631988788
+Neural Network,uncalibrated,validation_class_1_q0.9,,,,,,0.9,0.9999935427491603
+Neural Network,uncalibrated,test_class_0_q0.1,,,,,,0.1,1.2140622861224878e-08
+Neural Network,uncalibrated,test_class_0_q0.25,,,,,,0.25,4.0183497756663015e-07
+Neural Network,uncalibrated,test_class_0_q0.5,,,,,,0.5,7.221218193538648e-06
+Neural Network,uncalibrated,test_class_0_q0.75,,,,,,0.75,6.783737694887604e-05
+Neural Network,uncalibrated,test_class_0_q0.9,,,,,,0.9,0.0004245928987567318
+Neural Network,uncalibrated,test_class_1_q0.1,,,,,,0.1,0.09992235418483358
+Neural Network,uncalibrated,test_class_1_q0.25,,,,,,0.25,0.745960847493956
+Neural Network,uncalibrated,test_class_1_q0.5,,,,,,0.5,0.9855140391891908
+Neural Network,uncalibrated,test_class_1_q0.75,,,,,,0.75,0.9994865763564663
+Neural Network,uncalibrated,test_class_1_q0.9,,,,,,0.9,0.9999882783849697
+Neural Network,calibrated,f1_max,0.5138888888888888,1301.0,1408.0,1730.0,1994.0,,
+Neural Network,calibrated,precision_constrained,0.5138888888888888,1301.0,1408.0,1730.0,1994.0,,
+Neural Network,calibrated,review_capacity_0.0025,0.9878048780487805,763.0,765.0,1007.0,1012.0,,
+Neural Network,calibrated,review_capacity_0.005,0.6721311475409836,1231.0,1289.0,1635.0,1771.0,,
+Neural Network,calibrated,review_capacity_0.01,0.01639344262295082,1457.0,2585.0,1980.0,4317.0,,
+Neural Network,calibrated,validation_class_0_q0.1,,,,,,0.1,0.0
+Neural Network,calibrated,validation_class_0_q0.25,,,,,,0.25,0.0
+Neural Network,calibrated,validation_class_0_q0.5,,,,,,0.5,0.0
+Neural Network,calibrated,validation_class_0_q0.75,,,,,,0.75,0.00016722408026755852
+Neural Network,calibrated,validation_class_0_q0.9,,,,,,0.9,0.0004180602006688963
+Neural Network,calibrated,validation_class_1_q0.1,,,,,,0.1,0.1276595744680851
+Neural Network,calibrated,validation_class_1_q0.25,,,,,,0.25,0.6721311475409836
+Neural Network,calibrated,validation_class_1_q0.5,,,,,,0.5,0.9714285714285714
+Neural Network,calibrated,validation_class_1_q0.75,,,,,,0.75,1.0
+Neural Network,calibrated,validation_class_1_q0.9,,,,,,0.9,1.0
+Neural Network,calibrated,test_class_0_q0.1,,,,,,0.1,0.0
+Neural Network,calibrated,test_class_0_q0.25,,,,,,0.25,0.0
+Neural Network,calibrated,test_class_0_q0.5,,,,,,0.5,0.0
+Neural Network,calibrated,test_class_0_q0.75,,,,,,0.75,0.00012766500702157538
+Neural Network,calibrated,test_class_0_q0.9,,,,,,0.9,0.0004180602006688963
+Neural Network,calibrated,test_class_1_q0.1,,,,,,0.1,0.10097161954842587
+Neural Network,calibrated,test_class_1_q0.25,,,,,,0.25,0.6721311475409836
+Neural Network,calibrated,test_class_1_q0.5,,,,,,0.5,0.9714285714285714
+Neural Network,calibrated,test_class_1_q0.75,,,,,,0.75,1.0
+Neural Network,calibrated,test_class_1_q0.9,,,,,,0.9,1.0
+XGBoost,uncalibrated,f1_max,0.32329691207407124,1366.0,1449.0,1792.0,1965.0,,
+XGBoost,uncalibrated,precision_constrained,0.22562247651316963,1402.0,1541.0,1843.0,2115.0,,
+XGBoost,uncalibrated,review_capacity_0.0025,0.9876390695571899,605.0,605.0,744.0,747.0,,
+XGBoost,uncalibrated,review_capacity_0.005,0.7669137120246887,1181.0,1193.0,1521.0,1553.0,,
+XGBoost,uncalibrated,review_capacity_0.01,0.03063853457570076,1481.0,2499.0,2024.0,3961.0,,
+XGBoost,uncalibrated,validation_class_0_q0.1,,,,,,0.1,2.8394704713718966e-05
+XGBoost,uncalibrated,validation_class_0_q0.25,,,,,,0.25,4.7928784624673426e-05
+XGBoost,uncalibrated,validation_class_0_q0.5,,,,,,0.5,9.27737055462785e-05
+XGBoost,uncalibrated,validation_class_0_q0.75,,,,,,0.75,0.00020844218670390546
+XGBoost,uncalibrated,validation_class_0_q0.9,,,,,,0.9,0.0005274051101878282
+XGBoost,uncalibrated,validation_class_1_q0.1,,,,,,0.1,0.2677266508340836
+XGBoost,uncalibrated,validation_class_1_q0.25,,,,,,0.25,0.7987849116325378
+XGBoost,uncalibrated,validation_class_1_q0.5,,,,,,0.5,0.9764877557754517
+XGBoost,uncalibrated,validation_class_1_q0.75,,,,,,0.75,0.9947752505540848
+XGBoost,uncalibrated,validation_class_1_q0.9,,,,,,0.9,0.997827285528183
+XGBoost,uncalibrated,test_class_0_q0.1,,,,,,0.1,2.677384727576282e-05
+XGBoost,uncalibrated,test_class_0_q0.25,,,,,,0.25,4.623161021299893e-05
+XGBoost,uncalibrated,test_class_0_q0.5,,,,,,0.5,9.05451161088422e-05
+XGBoost,uncalibrated,test_class_0_q0.75,,,,,,0.75,0.00020470752133405767
+XGBoost,uncalibrated,test_class_0_q0.9,,,,,,0.9,0.0005224397347774357
+XGBoost,uncalibrated,test_class_1_q0.1,,,,,,0.1,0.10505091547966006
+XGBoost,uncalibrated,test_class_1_q0.25,,,,,,0.25,0.6733418703079224
+XGBoost,uncalibrated,test_class_1_q0.5,,,,,,0.5,0.9650869369506836
+XGBoost,uncalibrated,test_class_1_q0.75,,,,,,0.75,0.993439257144928
+XGBoost,uncalibrated,test_class_1_q0.9,,,,,,0.9,0.9976200938224793
+XGBoost,calibrated,f1_max,0.6363636363636365,1346.0,1408.0,1757.0,1895.0,,
+XGBoost,calibrated,precision_constrained,0.37349397590361444,1417.0,1583.0,1859.0,2185.0,,
+XGBoost,calibrated,review_capacity_0.0025,1.0,827.0,827.0,1021.0,1026.0,,
+XGBoost,calibrated,review_capacity_0.005,0.9393939393939394,1197.0,1211.0,1542.0,1577.0,,
+XGBoost,calibrated,review_capacity_0.01,0.023529411764705882,1482.0,2528.0,2026.0,4025.0,,
+XGBoost,calibrated,validation_class_0_q0.1,,,,,,0.1,0.0
+XGBoost,calibrated,validation_class_0_q0.25,,,,,,0.25,0.0
+XGBoost,calibrated,validation_class_0_q0.5,,,,,,0.5,0.0
+XGBoost,calibrated,validation_class_0_q0.75,,,,,,0.75,0.0
+XGBoost,calibrated,validation_class_0_q0.9,,,,,,0.9,0.00047938638542665386
+XGBoost,calibrated,validation_class_1_q0.1,,,,,,0.1,0.37349397590361444
+XGBoost,calibrated,validation_class_1_q0.25,,,,,,0.25,0.9393939393939394
+XGBoost,calibrated,validation_class_1_q0.5,,,,,,0.5,1.0
+XGBoost,calibrated,validation_class_1_q0.75,,,,,,0.75,1.0
+XGBoost,calibrated,validation_class_1_q0.9,,,,,,0.9,1.0
+XGBoost,calibrated,test_class_0_q0.1,,,,,,0.1,0.0
+XGBoost,calibrated,test_class_0_q0.25,,,,,,0.25,0.0
+XGBoost,calibrated,test_class_0_q0.5,,,,,,0.5,0.0
+XGBoost,calibrated,test_class_0_q0.75,,,,,,0.75,0.0
+XGBoost,calibrated,test_class_0_q0.9,,,,,,0.9,0.00047938638542665386
+XGBoost,calibrated,test_class_1_q0.1,,,,,,0.1,0.05917159763313609
+XGBoost,calibrated,test_class_1_q0.25,,,,,,0.25,0.8846153846153846
+XGBoost,calibrated,test_class_1_q0.5,,,,,,0.5,0.9827586206896551
+XGBoost,calibrated,test_class_1_q0.75,,,,,,0.75,1.0
+XGBoost,calibrated,test_class_1_q0.9,,,,,,0.9,1.0

@@ -1,2 +1,2 @@
-data_source,rows,fraud_rate,train_rows,validation_rows,test_rows,best_model,chosen_threshold,test_precision,test_recall,test_f1,test_pr_auc,runtime_seconds
-synthetic,1000000,0.004942,600000,200000,200000,Neural Network,0.9999890609875633,1.0,0.001006036217303823,0.0020100502512562816,0.5234112860620092,369.66005420684814
+data_source,rows_total,source_train_rows,source_test_rows,train_rows,validation_rows,test_rows,train_fraud_rate,validation_fraud_rate,test_fraud_rate,best_model,best_imbalance_strategy,final_policy,chosen_threshold,test_precision,test_recall,test_f1,test_pr_auc,test_tn,test_fp,test_fn,test_tp,runtime_seconds
+kaggle_sparkov_public_simulation,1852394,1296675,555719,1037340,259335,555719,0.005753176393467908,0.005930553145545337,0.0038598644278853163,XGBoost,none,f1_max,0.6363636363636365,0.9271767810026386,0.8191142191142191,0.8698019801980198,0.9099912045633393,553436,138,388,1757,260.8451683521271
